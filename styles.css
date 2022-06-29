@@ -163,13 +163,26 @@ li {
 
 /* GRID CONTAINER */
 
-.flex-container {
+#flex-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 1.66em;
+  margin: 3em auto;
+}
+
+.item img {
+  width:  25em;
+  height: 25em;
+  object-fit: cover;
 }
 
 .item {
-  height: 10em;
-  width: 100%;
+  transition: ease 0.5s;
+}
+
+.item:hover {
+  opacity: 0.5;
+  transition: ease 0.5s;
 }
