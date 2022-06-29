@@ -26,7 +26,8 @@
   
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: navy;
+    font-weight: 500;
     transition: ease .5s;
   }
   
@@ -62,3 +63,63 @@ video {
     background-attachment: fixed;
     background-size: contain;
 }
+
+.banner-links {
+    position: absolute;
+    top: 58%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-links a {
+    text-decoration: none;
+    color: navy;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px gainsboro;
+    margin: .5em;
+}
+
+li {
+    display: inline;
+    padding: 0 20px;
+  }
+  
+  .banner-links a {
+    position: relative;
+    display: inline;
+    cursor: pointer;
+  }
+
+
+  .banner-links a:before, .banner-links a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+  
+  .banner-links a:before {
+    left: -2.5px;
+  }
+  .banner-links a:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index: -1;
+  }
+  
+  .banner-links a:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index: -1;
+  }
+  
+  .banner-links a:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
