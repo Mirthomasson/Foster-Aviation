@@ -163,3 +163,13 @@ li {
 
 /* GRID CONTAINER */
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  height: 10em;
+  width: 100%;
+}
