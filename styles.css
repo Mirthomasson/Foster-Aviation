@@ -7,11 +7,15 @@
     scroll-behavior: smooth;
 }
 
+body {
+  background-color: #191919;
+}
+
 /* NAVIGATION BAR */
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #191919;
   }
   
   .topnav a {
