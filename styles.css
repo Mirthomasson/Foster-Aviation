@@ -416,6 +416,10 @@ li {
     width: 100%;
   }
 
+  .arrow {
+    bottom: 10em;
+  }
+
   video {
     display: none;
   }
