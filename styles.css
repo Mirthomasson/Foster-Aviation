@@ -483,8 +483,8 @@ li {
   }
 }
 
-@media screen and (min-width: 30em) and (orientation: landscape) { 
+@media only screen and (min-width: 667px) and (orientation: landscape) { 
   .arrow {
-    bottom: 30em;
+    bottom: 45em;
   }
 }
