@@ -457,6 +457,10 @@ li {
     display: none;
   }
 
+  .title {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 1300px) {
@@ -468,6 +472,6 @@ li {
 
 @media only screen and (min-width: 375px) and (max-width: 970px) {
   .arrow {
-    bottom: 70em;
+    bottom: 60em;
   }
 }
