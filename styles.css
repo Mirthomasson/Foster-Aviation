@@ -482,3 +482,9 @@ li {
     bottom: 55em;
   }
 }
+
+@media screen and (min-width: 30em) and (orientation: landscape) { 
+  .arrow {
+    bottom: 30em;
+  }
+}
