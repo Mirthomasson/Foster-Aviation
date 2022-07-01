@@ -151,7 +151,7 @@ li {
 
   .arrow {
   position: relative;
-  bottom: 8em;
+  bottom: 32em;
   left: 51%;
   margin-left: -22px;
   width: 30px;
@@ -209,6 +209,30 @@ li {
   transition: ease 0.5s;
   cursor: pointer;
 }
+
+
+ /* ABOUT */
+
+ .about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15em;
+  margin-top: 2em;
+ }
+
+ .column-1 img {
+  height: 20em;
+  width: auto;
+ }
+
+ .column-2 {
+  color: whitesmoke;
+  margin: 2em;
+ }
+
 
  /* CONTACT */
 
@@ -427,7 +451,7 @@ li {
   }
 
   .arrow {
-    bottom: 10em;
+    bottom: 36em;
   }
 
   video {
@@ -443,3 +467,8 @@ li {
 }
 
 
+@media only screen and (min-width: 375px) and (max-width: 970px) {
+  .arrow {
+    bottom: 70em;
+  }
+}
