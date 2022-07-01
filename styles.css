@@ -71,6 +71,12 @@ video {
   top: -2em;
 }
 
+.foster-logo  img{
+  height: 100%;
+  width: 100%;
+  margin-top: 6em;
+}
+
 /* .banner-links {
     position: absolute;
     top: 54.5%;
@@ -193,6 +199,90 @@ li {
   transition: ease 0.5s;
   cursor: pointer;
 }
+
+ /* CONTACT */
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: .5em;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10em 8em;
+  }
+  
+  /* Create two columns that float next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  .column img {
+    margin-top: -6em;
+    padding: 5em;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    input[type=submit] {
+      padding: .5em;
+      margin-bottom: 2em;
+    }
+  
+    .container {
+      padding: 10em 2em;
+    }
+  
+    .social-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 
 
 /* FOOTER */
@@ -317,5 +407,25 @@ li {
   } */
 }
 
+@media only screen and (min-width: 375px) and (max-width: 1300px) {
+  .banner {
+    background-image: url(./images/foster-mobile-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  video {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1300px) {
+  .foster-logo {
+    display: none;
+  }
+}
 
 
