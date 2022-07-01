@@ -472,6 +472,6 @@ li {
 
 @media only screen and (min-width: 375px) and (max-width: 970px) {
   .arrow {
-    bottom: 60em;
+    bottom: 55em;
   }
 }
