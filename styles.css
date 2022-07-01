@@ -238,15 +238,15 @@ li {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10em 8em;
+    padding: 11em 8em;
   }
   
   /* Create two columns that float next to each other */
   .column {
     float: left;
     width: 50%;
-    margin-top: 6px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px;
   }
 
   .column img {
