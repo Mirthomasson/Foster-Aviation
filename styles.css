@@ -77,6 +77,16 @@ video {
   margin-top: 6em;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  float: right;
+  margin-top: .75em;
+  margin-right: 1em;
+}
+
 /* .banner-links {
     position: absolute;
     top: 54.5%;
@@ -409,7 +419,7 @@ li {
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
   .banner {
-    background-image: url(./images/foster-mobile-2.jpeg);
+    background-image: url(./images/mobile-banner.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
