@@ -125,6 +125,49 @@ video {
   cursor: pointer;
 }
 
+/* INTRO */
+#intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 17.5em;
+  gap: 12.5em;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: linen;
+  width: 50%;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: linen;
+  width: 50%;
+}
+
+.phone {
+  fill: linen;
+  height: 1em;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+
+.envelope {
+  fill: linen;
+  height: 1em;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+
 /* INFO */
 
 .info {
@@ -132,6 +175,7 @@ video {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   margin-bottom: 4em;
   padding: 5em;
   color: linen;
@@ -267,6 +311,15 @@ h1 {
   letter-spacing: 1px;
  }
 
+ .team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: linen;
+  font-size: 2.5em;
+  text-decoration: underline;
+ }
+
  .dusty {
   display: flex;
   align-items: center;
@@ -371,6 +424,7 @@ h1 {
   justify-content: center;
   gap: 1.66em;
   margin: 3em auto;
+  overflow: hidden;
 }
 
 .item img {
@@ -585,12 +639,23 @@ h1 {
     bottom: 20em;
   }
 
+  #intro {
+    flex-direction: column;
+    margin: 0 -8em;
+  }
+
+  h1 {
+    margin: 0 auto;
+  }
+
   .info {
     flex-direction: column;
     gap: 5em;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: left;
+    padding: 8em;
+    margin: 0 auto;
   }
 
   main {
