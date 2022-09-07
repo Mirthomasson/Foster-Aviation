@@ -626,9 +626,9 @@ h1 {
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
 .banner {
-  background-image: url(./images/FOSTERroundlogoFLOAT.png);
-  height: 100vh;
-  width: 80%;
+  background-image: url(./images/mini-banner.jpeg);
+  height: 90vh;
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
