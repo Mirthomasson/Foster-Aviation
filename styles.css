@@ -71,12 +71,6 @@ video {
   top: -2em;
 }
 
-.foster-logo img {
-  height: 100%;
-  width: 100%;
-  margin-top: 6em;
-}
-
 .mini-banner {
   height: 40vh;
   background-image: url(./images/mini-banner.jpeg);
@@ -99,7 +93,7 @@ video {
 
   .arrow {
   position: relative;
-  bottom: 52em;
+  bottom: 8em;
   left: 51%;
   margin-left: -22px;
   width: 30px;
@@ -583,25 +577,8 @@ h1 {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
-  .banner {
-    background-image: url(./images/mini-banner.jpeg);
-    background-position: 49%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
-  }
-
-  .arrow {
-    bottom: 36em;
-  }
-
-  video {
-    display: none;
-  }
-
-  .title {
-    display: none;
+.arrow {
+    bottom: 40em;
   }
 
   .info {
@@ -678,16 +655,12 @@ h1 {
 
 @media only screen and (min-width: 375px) and (max-width: 970px) {
   .arrow {
-    bottom: 75em;
+    bottom: 10em;
   }
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape) { 
-  .foster-logo {
-    margin-top: -2em;
-  }
-
   .arrow {
-    bottom: 38em;
+    bottom: 7em;
   }
 }
