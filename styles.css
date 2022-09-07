@@ -632,13 +632,12 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
-  background-color: whitesmoke;
-  margin-bottom: 12em;
+  background-color: #5088B3;
 }
 
   .banner {
   background-image: url(./images/mini-banner.jpeg);
-  height: 34vh;
+  height: 60vh;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -650,7 +649,7 @@ h1 {
 }
 
   .arrow {
-    bottom: 6em;
+    bottom: 5em;
   }
 
   #intro {
