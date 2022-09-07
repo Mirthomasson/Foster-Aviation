@@ -578,7 +578,7 @@ h1 {
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
 .arrow {
-    bottom: 40em;
+    bottom: 20em;
   }
 
   .info {
@@ -644,19 +644,6 @@ h1 {
     color: linen;
   }
 
-}
-
-@media only screen and (min-width: 1300px) {
-  .foster-logo {
-    display: none;
-  }
-}
-
-
-@media only screen and (min-width: 375px) and (max-width: 970px) {
-  .arrow {
-    bottom: 10em;
-  }
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape) { 
