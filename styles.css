@@ -625,9 +625,20 @@ h1 {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
-.banner {
+.title {
+  background-image: url(./images/FOSTERfloating.png);
+  height: 25vh;
+  width: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-bottom: 12em;
+}
+
+  .banner {
   background-image: url(./images/mini-banner.jpeg);
-  height: 90vh;
+  height: 34vh;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -636,11 +647,6 @@ h1 {
 
   video {
   display: none;
-}
-
-  .title {
-  text-align: center;
-  margin: 0 auto;
 }
 
   .arrow {
