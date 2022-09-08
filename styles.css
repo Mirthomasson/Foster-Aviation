@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -447,6 +449,53 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 
+.serv-ban {
+  background-image: url(./images/services-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: auto;
+}
+
+.item a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: whitesmoke;
+}
+
+.serv-ban h1 {
+  position: relative;
+  right: -10em;
+  bottom: -2.75em;
+  color: whitesmoke;
+  font-size: 4em;
+}
+
+.item.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: linen;
+  margin: 4em 20em;
+}
+
+.item.two img {
+  margin: 2em;
+  width: 100%;
+}
+
+.item.two .centered {
+  top: 40%;
+}
+
+.item.two:hover {
+  transform: none;
+  cursor: auto;
+}
+
+
 
  /* CONTACT */
 
@@ -680,6 +729,14 @@ h1 {
 
 p {
   padding: 0 1.5em;
+}
+
+.item.two { 
+  margin: 2em 6em;
+}
+
+.item.two .centered {
+  top: 30%;
 }
 
   .dusty {
