@@ -710,6 +710,10 @@ h1 {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
+#myTopnav.topnav.responsive {
+  z-index: 2;
+}
+
 .title {
   background-image: url(./images/FOSTERfloating.png);
   display: flex;
@@ -725,7 +729,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
- 
 }
 
   .banner {
