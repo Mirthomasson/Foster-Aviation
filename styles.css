@@ -494,7 +494,7 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 30vh;
   width: auto;
   overflow: hidden;
 }
@@ -503,14 +503,6 @@ h1 {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   color: whitesmoke;
-}
-
-.serv-ban h1 {
-  position: relative;
-  right: -10em;
-  bottom: -2.75em;
-  color: whitesmoke;
-  font-size: 4em;
 }
 
 .item.two {
@@ -683,7 +675,7 @@ h1 {
 .footer-distributed .footer-right a {
   display: inline-block;
   width: 35px;
-  height: 35px;
+  height: 36px;
   font-size: 28px;
   color: #ffffff;
   text-align: center;
@@ -762,6 +754,9 @@ h1 {
 
   h1 {
     margin: 0 auto;
+    color: linen;
+    text-align: center;
+    text-decoration: underline;
   }
 
   .info {
@@ -870,14 +865,6 @@ p {
 
   .info {
     padding: 8em 12em;
-  }
-
-  .serv-ban {
-    overflow: hidden;
-  }
-
-  .serv-ban h1 {
-    right: -3.5em;
   }
 
   .centered {
