@@ -296,6 +296,14 @@ h1 {
 
  /* ABOUT */
 
+ .about-ban {
+  background-image: url(./images/about-ban.png);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
  #about-container {
   display: flex;
   flex-direction: column;
@@ -407,6 +415,37 @@ h1 {
   line-height: 1.7em;
  }
 
+ /* FAQ SECTION */
+
+ .faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: linen;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 10em;
+ }
+
+ .faq-section h1 {
+  font-size: 3em;
+  text-decoration:overline;
+ }
+
+ .faq-section h1:hover {
+  text-decoration: underline;
+ }
+
+ .faq-section h2 {
+  margin: 2em;
+  font-style: italic;
+ }
+
+ .faq-section p {
+  margin-bottom: 4em;
+ }
+
 /* FLEX CONTAINER */
 
 #flex-container {
@@ -456,6 +495,7 @@ h1 {
   background-repeat: no-repeat;
   height: 40vh;
   width: auto;
+  overflow: hidden;
 }
 
 .item a {
@@ -683,14 +723,16 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 25vh;
-  width: 80%;
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
-  position: relative;
-  bottom: -12em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  margin-top: -10em;
+ 
 }
 
   .banner {
@@ -803,6 +845,11 @@ p {
     color: linen;
   }
 
+  .faq-section {
+    width: 100%;
+    padding: 2em 5em;
+  }
+
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape) { 
@@ -811,8 +858,8 @@ p {
   }
 
   .title {
-    left: 11.5em;
-    margin-bottom: 1.5em;
+    margin-left: 11.5em;
+    top: 4.5em;
   }
 
   .banner {
