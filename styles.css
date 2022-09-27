@@ -708,6 +708,16 @@ h1 {
   }
 }
 
+
+/* THANK YOU PAGE */
+
+.ty-msg {
+  color: whitesmoke;
+  text-align: center;
+  margin: 5em;
+  text-decoration: none;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 375px) and (max-width: 1300px) {
