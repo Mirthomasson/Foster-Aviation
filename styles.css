@@ -432,11 +432,6 @@ h1 {
 
  .faq-section h1 {
   font-size: 3em;
-  text-decoration:overline;
- }
-
- .faq-section h1:hover {
-  text-decoration: underline;
  }
 
  .faq-section h2 {
