@@ -690,6 +690,15 @@ h1 {
   text-decoration:underline;
 }
 
+.mini-footer {
+  position: relative;
+}
+
+.mini-footer a {
+  text-decoration: none;
+  color: #8f9296;
+}
+
 
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
