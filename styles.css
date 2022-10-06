@@ -874,7 +874,7 @@ p {
 
 @media only screen and (max-width: 667px) and (orientation: landscape) { 
   .arrow {
-    bottom: 5em;
+    bottom: 10em;
   }
 
   .banner {
