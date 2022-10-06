@@ -765,7 +765,7 @@ transition: all .2s ease;
 
 video {
   height: 770px;
-  width: 475px;
+  width: 100%;
 }
 
 .desktop-vid {
