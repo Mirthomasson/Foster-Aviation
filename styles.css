@@ -79,6 +79,7 @@ video {
   display: none;
   max-height: 1280px;
   max-width: 720px;
+  z-index: -1;
 }
 
 .mini-banner {
@@ -585,8 +586,9 @@ h1 {
   }
 
   .column img {
-    margin-top: -6em;
-    padding: 5em;
+    margin: 0 auto;
+    margin-top: -2em;
+    margin-bottom: 5em;
   }
   
   /* Clear floats after the columns */
