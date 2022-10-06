@@ -751,7 +751,7 @@ transition: all .2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  height: 18vh;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -761,10 +761,11 @@ transition: all .2s ease;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  background-color: rgba(255, 255, 255, 0.651);
 }
 
   .banner {
-  background-image: url(./images/mobile-banner.png);
+  /* background-image: url(./images/mobile-banner.png); */
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -774,9 +775,9 @@ transition: all .2s ease;
   position: relative;
 }
 
-  video {
+  /* video {
   display: none;
-}
+} */
 
   .arrow {
     bottom: 5em;
