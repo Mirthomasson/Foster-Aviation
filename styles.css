@@ -880,9 +880,8 @@ p {
     bottom: 10em;
   }
 
-  .banner {
-    background-position: bottom;
-    height: 110vh;
+  video {
+    height: 700px;
   }
 
   .info {
