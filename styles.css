@@ -91,7 +91,8 @@ body {
     }
 
     #home:after {
-      content: 'Foster Aviation and Mobile Maintenance';
+      content: 'Foster Aviation & Mobile Maintenance';
+      font-size: 15px;
     }
   }
 
