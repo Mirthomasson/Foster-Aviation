@@ -123,8 +123,6 @@ video {
 
 .mobile-vid {
   display: none;
-  height: 1280px;
-  width: 720px;
 }
 
 .mini-banner {
@@ -133,6 +131,15 @@ video {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 475px;
+  }
 }
 
   /* DOWN ARROW */
@@ -822,7 +829,7 @@ video {
 }
 
   .arrow {
-    bottom: 15em;
+    bottom: 10em;
   }
 
   #intro {
