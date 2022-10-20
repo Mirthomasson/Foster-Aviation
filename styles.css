@@ -649,6 +649,114 @@ h1 {
     display: table;
     clear: both;
   }
+
+  /* .merch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    background: url('./images/merch-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .merch-title {
+    text-align: center;
+    font-size: 4em;
+    color: transparent;
+    font-weight: bold;
+    position: relative;
+    background-color: lime;
+    padding: .5em;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    -webkit-animation: colorchange 20s infinite alternate;
+  }
+  
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  .hats img {
+    height: 100%;
+    width: 20em;
+    border-radius: 1em;
+    border: 2em solid lightblue;
+  }
+
+  .pricing {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 4em;
+    text-align: center;
+  }
+
+  .order {
+    font-size: 1em;
+  }
+
+  .shirts img {
+    height: 100%;
+    width: 20em;
+    border-radius: 1em;
+    border: 2em solid lightblue;
+  } */
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
