@@ -127,8 +127,8 @@ video {
 
 .mini-banner {
   height: 60vh;
-  background-image: url(./images/mobile-banner.png);
-  background-position: bottom;
+  background-image: url(./images/CoolClay.jpeg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -992,7 +992,7 @@ p {
     color: linen;
   }
 
-  .seth {
+  .clay {
     flex-direction: column;
   }
 
@@ -1006,25 +1006,11 @@ p {
     color: linen;
   }
 
-  .clay {
-    flex-direction: column;
-  }
-
-  .third {
-    width: 100%;
-    font-size: 12px;
-    overflow: hidden;
-    border-radius: 5px;
-    height: fit-content;
-    background-color: transparent;
-    color: linen;
-  }
-
   .cash {
     flex-direction: column;
   }
 
-  .fourth {
+  .third {
     width: 100%;
     font-size: 12px;
     overflow: hidden;
